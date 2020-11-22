@@ -6,4 +6,7 @@
 
 ## Środowisko
 
+Instrukcje dotyczące instalacji niezbędnych programów:
+
 * [Konfiguracja](https://infotraining.bitbucket.io/python-basic/setup.html)
+
