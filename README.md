@@ -1,11 +1,9 @@
 # Programowanie w języku Python
 
 ## Docs
-* https://infotraining.bitbucket.io/python-basic/
+
+* [Dokumentacja](https://infotraining.bitbucket.io/python-basic/)
 
 ## Środowisko
 
-## Visual Studio Code (https://code.visualstudio.com/)
-
-### Wtyczki
-* Live Share
+* [Konfiguracja](https://infotraining.bitbucket.io/python-basic/setup.html)
