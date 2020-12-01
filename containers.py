@@ -59,3 +59,70 @@ print(new_list)
 print(other_list)
 
 ## https://www.python.org/dev/peps/pep-0008/
+
+# tuples
+print("------ Tuples --------")
+
+t = 1, 2, 3
+for i in t:
+    print(i)
+
+print(t[0])
+#t[0] = 123
+
+def div_with_rest(a, b):
+    div = a // b
+    rest = a % b
+    return div, rest
+
+result = div_with_rest(7, 3)
+print(result[0], result[1])
+
+d, r = div_with_rest(7, 3)
+print(d, r)
+
+# dictionary
+print("------ Dictionary --------")
+d = {1 : "one", 2: "two"}
+#print(d[0]) # key error
+print(d[1])
+print(d[2])
+
+d2 = {"one" : 1, "two" : 2}
+print(d2["one"])
+
+for key in d2:
+    print(d2[key])
+
+for value in d2.values():
+    print(value)
+
+print("----")
+for k, v in d2.items():
+    print(k)    
+    print(v)
+
+d3 = {"Artur" : ["123", "456"],
+      "Beata" : ["256"]}
+
+print(d3["Artur"])
+
+print("Beata" in d3)
+
+if "Ola" in d3:
+    print(d3["Ola"])
+else:
+    print("no ola in d3")
+
+try:
+    print(d3["Ola"])
+except KeyError:
+    print("no ola in d3")
+
+d3["Ola"] = ["678", "999"]
+
+try:
+    print(d3["Ola"])
+except KeyError:
+    print("no ola in d3")
+
