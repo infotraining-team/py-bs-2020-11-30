@@ -1,4 +1,7 @@
 #!/usr/bin/python
+
+## https://github.com/infotraining-team/py-bs-2020-11-30
+
 name_list = ['Dionizy', 'Natalia', 'anna', 'Artur', 'Stefan', 'Kinga', 'Aleksandra', 
            'Katarzyna', 'Zofia', 'Ksawery', 'Maciej', 'monika', 'Tomasz', 'Weronika',
            'Marcin', 'Dominik', 'Ewa']
