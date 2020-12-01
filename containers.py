@@ -126,3 +126,10 @@ try:
 except KeyError:
     print("no ola in d3")
 
+rev_d = {}
+for k, v in d.items():
+    rev_d[v] = k
+
+d[3] = "one"
+print(d)
+print(rev_d)
