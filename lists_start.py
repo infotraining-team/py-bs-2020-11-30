@@ -16,6 +16,8 @@ foreign_name = ['Jean', 'Paul', 'Mao', 'Aurielie']
 
 # 4 - posortuj alfabetycznie polaczona liste imion
 
+name_list.sort(key=str.upper)
+
 # 5 - posortuj poloczona liste wg dlugosci imion
 
 # 6 - odwroc kolejnosc posortowanej listy

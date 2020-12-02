@@ -41,4 +41,3 @@ def print_names(name, surname, *args, **kwargs):
 print_names("Leszek", "T", 213)
 print_names(name="Leszek", surname="T", age=43)
 
-
